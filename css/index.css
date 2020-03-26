@@ -119,14 +119,29 @@ main>div {
     padding: 0 30px;
 }
 
-.form-group{
-    margin-bottom: 10px;
+.form-group {
+    margin-bottom: 15px;
 }
+
+.form-group label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
 .form-group>* {
     width: 100%;
 }
 
 .form-group>input {
     padding: 10px 3px;
-    border: border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.form-group>input[type=submit] {
+    background-color: #1565c0;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 16px;
 }
