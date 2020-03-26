@@ -2,7 +2,7 @@ body {
     background-color: #ECEEF1;
     margin: 0;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 header,
@@ -15,7 +15,26 @@ footer {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul>li {
+    display: inline-block;
+}
+
+
+/* main-header styling */
 
 #main-header {
     display: flex;
@@ -48,4 +67,16 @@ a {
     height: 34px;
     box-sizing: border-box;
     margin-left: 10px;
+}
+
+
+/* footer styles */
+
+footer>* {
+    border: 1px solid green;
+    text-align: center;
+}
+
+footer ul li {
+    padding: 0px 4px;
 }
