@@ -80,3 +80,33 @@ footer>* {
 footer ul li {
     padding: 0px 4px;
 }
+
+
+/* form-syle */
+
+main>div {
+    width: 380px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.form-header>* {
+    text-align: center;
+}
+
+.form-header ul>li {
+    margin-right: 5px;
+    font-size: 17px;
+    opacity: .7;
+}
+
+.form-container h2,
+.form-container p {
+    text-align: center;
+}
+
+.form-container a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
