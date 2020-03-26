@@ -112,6 +112,7 @@ main>div {
     display: block;
     text-align: center;
     text-decoration: none;
+    color:#0077C5;
 }
 
 .form-container form {
@@ -144,4 +145,32 @@ main>div {
     color: #fff;
     padding: 15px 0;
     font-size: 16px;
+}
+
+.terms-and-condition p {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 20px;
+    font-style: italic;
+}
+
+.terms-and-condition a {
+    display: inline-block;
+    color: #0077C5;
+}
+
+.recapture a {
+    display: inline-block;
+    color: #0077C5;
+}
+
+.recapture {
+    margin-top: 6px;
+    background-color: #ECEEF1;
+    padding: 20px 10px;
+}
+
+.recapture small {
+    display: block;
+    text-align: center;
 }
