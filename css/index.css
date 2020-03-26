@@ -226,7 +226,7 @@ main>div {
     margin-bottom: 0;
     text-align: center;
     cursor: pointer;
-    font-size: 1.125em;
+    font-size: 1.1em;
 }
 
 .icon-padlock {
@@ -241,4 +241,16 @@ main>div {
 .img-logo {
     display: block;
     margin: 20px auto
+}
+
+#privacy-settings {
+    position: fixed;
+    bottom: 0px;
+    right: 5%;
+    padding: 10px 12px;
+    background-color: #4C4C4C;
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 4px;
 }
