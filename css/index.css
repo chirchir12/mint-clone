@@ -9,7 +9,6 @@ header,
 main,
 footer {
     width: 90%;
-    border: 1px solid red;
     margin: 0px auto;
 }
 
@@ -73,7 +72,6 @@ ul>li {
 /* footer styles */
 
 footer>* {
-    border: 1px solid green;
     text-align: center;
 }
 
@@ -87,7 +85,6 @@ footer ul li {
 main>div {
     width: 380px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .form-header>* {
@@ -105,8 +102,31 @@ main>div {
     text-align: center;
 }
 
+.form-container {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+}
+
 .form-container a {
     display: block;
     text-align: center;
     text-decoration: none;
+}
+
+.form-container form {
+    margin-top: 25px;
+    padding: 0 30px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+.form-group>* {
+    width: 100%;
+}
+
+.form-group>input {
+    padding: 10px 3px;
+    border: border-radius: 5px;
 }
