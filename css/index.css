@@ -8,8 +8,16 @@ body {
 header,
 main,
 footer {
-    width: 90%;
+    width: 95%;
     margin: 0px auto;
+    color: #505050;
+    font-size: 12px;
+    word-spacing: 2px;
+}
+
+footer>div {
+    margin-bottom: 20px;
+    margin-top: 4px;
 }
 
 a {
@@ -30,6 +38,8 @@ p {
 
 ul>li {
     display: inline-block;
+    font-size: 12px;
+    line-height: 1.5px;
 }
 
 
@@ -99,6 +109,16 @@ main>div {
     opacity: .7;
 }
 
+.form-header ul {
+    margin-bottom: 15px;
+}
+
+.form-header ul>li>a>* {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 3px;
+}
+
 .form-container h2,
 .form-container p {
     text-align: center;
@@ -118,8 +138,18 @@ main>div {
 }
 
 .form-container form {
-    margin-top: 25px;
     padding: 0 30px;
+}
+
+#form-header {
+    padding-bottom: 20px;
+    color: #4C4C4C;
+}
+
+#form-header h2 {
+    font-size: 24px;
+    line-height: 1.1;
+    font-weight: 400;
 }
 
 .form-group {
@@ -150,10 +180,13 @@ main>div {
 }
 
 .terms-and-condition p {
-    width: 80%;
-    margin: 0 auto;
-    line-height: 20px;
+    color: #757575;
+    width: 82%;
+    margin: 40px auto;
+    line-height: 1.8;
     font-style: italic;
+    font-size: 12px;
+    font-weight: lighter;
 }
 
 .terms-and-condition a {
@@ -175,6 +208,8 @@ main>div {
 .recapture small {
     display: block;
     text-align: center;
+    font-weight: lighter;
+    font-size: 10px;
 }
 
 #submit-sign-up {
