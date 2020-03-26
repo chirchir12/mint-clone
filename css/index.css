@@ -2,7 +2,7 @@ body {
     background-color: #ECEEF1;
     margin: 0;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 header,
@@ -44,6 +44,8 @@ ul>li {
 #main-header div:first-child>* {
     display: block;
     text-align: end;
+    font-size: 12px;
+    line-height: 1.5em;
 }
 
 #main-header div:first-child>a {
@@ -112,7 +114,7 @@ main>div {
     display: block;
     text-align: center;
     text-decoration: none;
-    color:#0077C5;
+    color: #0077C5;
 }
 
 .form-container form {
@@ -173,4 +175,35 @@ main>div {
 .recapture small {
     display: block;
     text-align: center;
+}
+
+#submit-sign-up {
+    background: #0077C5;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 44px;
+    font-weight: normal;
+    color: #FFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+    min-width: 100px;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.125em;
+}
+
+.icon-padlock {
+    margin-right: 4px
+}
+
+.button-padlock>* {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.img-logo {
+    display: block;
+    margin: 20px auto
 }
